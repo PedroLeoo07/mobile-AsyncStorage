@@ -7,6 +7,10 @@
     "platforms": ["ios", "android", "web"],
     "jsEngine": "hermes",
     "plugins": ["expo-router"],
-    "experiments": { "typedRoutes": false }
+    "experiments": { "typedRoutes": false },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": ["**/*"]
   }
 }
