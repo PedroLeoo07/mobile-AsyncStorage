@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Todo Expo Router",
+    "slug": "todo-expo-router",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "jsEngine": "hermes",
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": false }
+  }
+}
