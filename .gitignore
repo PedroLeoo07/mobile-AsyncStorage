@@ -1,0 +1,45 @@
+# Dependências
+node_modules/
+
+# Expo / Expo Router caches
+.expo/
+.expo-shared/
+.expo/**/*
+.expo/*
+
+# Metro / caches
+.packager/
+.cache/
+dist/
+build/
+
+# Bundles / outputs
+web-build/
+android/app/build/
+android/.gradle/
+android/.idea/
+ios/build/
+ios/Pods/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-error.log
+*.log
+
+# Ambiente / credenciais
+.env
+.env.*
+!.env.example
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Misc
+coverage/
+*.pid
